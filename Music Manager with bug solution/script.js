@@ -13,9 +13,11 @@ const handleSearch = () => {
 };
 
 const showArtists = (data) => {
+  console.log(data)
   const artistContainer = elementById("artists"); //error2 
   console.log(artistContainer);
   data?.artists?.forEach((artist) => {
+    //error 12
     console.log(artist)
     const div = document.createElement("div");
     //error8 

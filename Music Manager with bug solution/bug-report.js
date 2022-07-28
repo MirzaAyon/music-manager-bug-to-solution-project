@@ -90,3 +90,10 @@
 
 //ekhn 100% space niye felse
 //pura 11 ta bug fixed
+
+//habijabi likhe search dile 16 no line theke null ashtese
+//console.log(data) theke
+//karon data.artist.foreach theke data ke pache na 19 no line e 
+//tai ei bug fix er jnno conditional chaining kore dibo 19 no line e 
+// ? mark use korbo
+//ei step valid hole porer tae dhuko, erprer ta valid hole porer tae dhuko
