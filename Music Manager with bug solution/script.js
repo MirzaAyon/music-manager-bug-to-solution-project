@@ -50,19 +50,24 @@ const fetchAlbums = (id) => {
 };
 
 const showAlbum = (data) => {
+  console.log(data);
   const albumContainer = elementById("albums");
-  album.forEach((item) => {
+  data.album.forEach((item) => { //error 5
+    console.log(item)
     const div = document.createElement("div");
     div.classList.add("album");
+    //error6 and 7
     div.innerHTML = `
         <div class="album-image-container">
           <img
-            src="${album.strAlbumThumb}"
+            src="${item.strAlbumThumb}"
+            
+            
             alt=""
           />
         </div>
         <div class="album-name">
-          <h3>${album.strAlbum}</h3>
+          <h3>${item.strAlbum}</h3>
         </div>
       `;
 

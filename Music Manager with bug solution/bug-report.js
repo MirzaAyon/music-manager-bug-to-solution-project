@@ -34,3 +34,14 @@
 //jodi kono kichu refer kori jeta declare kora nai tahole reference error hbe 
 //declare pen
 //console pencil tahole to hbe na 
+//52 no line e data ta kmn jhapsha hye ache tai eke console.log(data); korlam
+//ekhn dekhlam ashami ber hye gese album Array(51)
+//ei datar vitore album name ekta jinish ache 
+//obj er vitore array ache tai eke access korar jnno
+//data.album.forEach((item) => { eta dilam
+//54 no line theke error 62 no line e gese 
+//error ReferenceError: album is not defined
+//abr 55 no line e item na jhapsha tai eke console log
+//tar mane atrAlbum ta item er vitore ache
+//tai item dilam album er bodole  63 and 70 no line e  no line e 
+//ekhn every albums are showing
