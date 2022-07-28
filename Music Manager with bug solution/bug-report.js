@@ -21,3 +21,16 @@
 
 
 //ekhn every pic e hover korle ekta album btn ashbe shetake click korle r album show hochee na 
+//44 line e error diche je ekta api link 404 which is not found
+//album e click er pore 45 no line e res.JSON name ekta error dichche je res.JSON is not a func
+//2 ta error er modhe first ta age dekhbo and fix korar try krbo ete sometimes nicher tao fix hye jabe
+//age nicher ta korle majhe majhe conflict hye jete pare
+//console.log(url); dibo (44)
+//ete link valo thakle show hbe bhalo na thakle show hbe na 
+//https na dewar jnno problem hoise
+//46 no line e dekhaise res.JSON is not a function
+//res.json hbe bhule boro hater dsi
+//ei bug fix korar por ekhn 54 no line e new bug diche je  ReferenceError: album is not defined
+//jodi kono kichu refer kori jeta declare kora nai tahole reference error hbe 
+//declare pen
+//console pencil tahole to hbe na 

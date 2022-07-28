@@ -40,9 +40,10 @@ const showArtists = (data) => {
 };
 
 const fetchAlbums = (id) => {
-  const url = `theaudiodb.com/api/v1/json/2/album.php?i=${id}`;
+  const url = `https://theaudiodb.com/api/v1/json/2/album.php?i=${id}`; //error 3
+  console.log(url);
   fetch(url)
-    .then((res) => res.JSON())
+    .then((res) => res.json()) //error 4
     .then((data) => showAlbum(data));
   const artistContainer = elementById("artists");
   artistContainer.innerHTML = "";
