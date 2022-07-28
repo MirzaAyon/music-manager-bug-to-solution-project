@@ -12,6 +12,7 @@ const handleSearch = () => {
     .then((res) => res.json())
     .then((data) => showArtists(data));
   artistContainer.innerHTML = ""; //error 13
+  keyword.value = ""; //error 14
 };
 
 const showArtists = (data) => {
