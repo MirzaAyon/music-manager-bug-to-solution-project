@@ -5,11 +5,13 @@ const elementById = (id) => {
 
 const handleSearch = () => {
   const keyword = elementById("keyword");
+  const artistContainer = elementById("artists");
   console.log(keyword);
   const url = `https://theaudiodb.com/api/v1/json/2/search.php?s=${keyword.value}`;
   fetch(url)
     .then((res) => res.json())
     .then((data) => showArtists(data));
+  artistContainer.innerHTML = ""; //error 13
 };
 
 const showArtists = (data) => {

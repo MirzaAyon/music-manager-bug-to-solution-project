@@ -97,3 +97,21 @@
 //tai ei bug fix er jnno conditional chaining kore dibo 19 no line e 
 // ? mark use korbo
 //ei step valid hole porer tae dhuko, erprer ta valid hole porer tae dhuko
+
+
+//new error holo coldplay click korle ashtese sathe aurora dile coldplay remove hocheee na 2 tai show hochee
+//coldplay likhe search diye jeta ashbe oita inspact korle dekha jabe artist gula ekta div er modhe thake 
+//artist card ta arekta div er modhe ache
+//artist-card-container div er under e jei artist-card div ta ache otay nojor rakhbo  and new kore bar bar aurora add korbo dekha jabe new kore div add hoche but ager ta delete hoche na 
+//tar mane new ta ashar pore ager take delete kore dite hbe tai element e selector diye search e click krbo
+//dekha jabe handle search onclick dewa ekta btn ache 
+//tai eke clean korar jnno js e giye handlesearch diye search
+//line 8 e 
+//const artistContainer = elementById("artists");
+//dilam
+//line 14 te artistContainer.innerHTML = ""; 
+//eta dilam ekhn try kore dekhbo
+//ekhn dekha jabe coldplay nai hye jabe 
+//inspact eo dekhbo ager card ta shore jachee
+//element e 
+//same way te album er tao krbo
