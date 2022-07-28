@@ -45,3 +45,29 @@
 //tar mane atrAlbum ta item er vitore ache
 //tai item dilam album er bodole  63 and 70 no line e  no line e 
 //ekhn every albums are showing
+//kichu kichu album er pic blank 
+//abr aurora er 2nd profile pic ta nai
+//jokhn kono element e kno bug pabo and colsole e kno error nai 
+//tokhn oitar upr click kore inspact kore dkehbo
+//arora er 2nd pic er upr inspact kore dkhbo
+//selector diye check kore dkhlam je 2nd tar pic null dekhachee
+//image-container-inner name kichur modhe jhamela hochee
+//html file e image-container-inner name kichu nai tar mane eta dynamically add hochee
+//js file e con+f diye image-container-inner diye search dbo
+//22 no line e ache 
+//img gula thik moto ashe kina janar jnno
+//18 no line e artist ke console log krbo
+//shb artist er full info pelam
+//expand kore dekhbo stritemthumb e first tar jnno link ache but second tar jnno kno link nai mane null showing
+//tar mane okhane img nai tai okhane fix korar jnno default img lagae dbo
+//google - image placeholder
+//images - image click - right btn - open image in new tab
+//link copy kore ternary operator er maddhome boshae dilam 
+//ekta kaj na korle arek ta kaj krbe
+//album er khetreo same kichu kichu blank show hochee
+//shekhane inspact
+//album-image-container name class ache
+//eta name html kichu nai js e ache tar mane dynamically set hochee
+//65 no line e null pache tai same ternary boshabe
+//google - music - ekta pic - open in new tab
+//otar link tarnary er modhe boshabo
