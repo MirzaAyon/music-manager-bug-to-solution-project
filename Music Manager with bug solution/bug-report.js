@@ -71,3 +71,22 @@
 //65 no line e null pache tai same ternary boshabe
 //google - music - ekta pic - open in new tab
 //otar link tarnary er modhe boshabo
+//image er height ta problem kortese tai 
+// .image-container-inner img {
+//     width: 100%;
+//     height: 100%; 
+//     /* error 10 */
+//     object-fit: cover;
+//   }
+
+//eta korlam
+
+//ekhane o same kaj krbo
+// .album-image-container img {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//   }
+
+//ekhn 100% space niye felse
+//pura 11 ta bug fixed
